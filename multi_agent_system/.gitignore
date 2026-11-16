@@ -1,0 +1,26 @@
+﻿# Secrets
+.env
+*.env
+
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Virtual environment parts (NOT the whole "venv" folder, source code lives there)
+GoogleA2A/venv/Lib/
+GoogleA2A/venv/Scripts/
+GoogleA2A/venv/Include/
+GoogleA2A/venv/share/
+GoogleA2A/venv/pyvenv.cfg
+
+# CrewAI / local data
+.crewai/
+chroma/
+*.sqlite3
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.bob/
